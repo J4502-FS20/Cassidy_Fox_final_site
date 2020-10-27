@@ -19,11 +19,15 @@ color: #000000;
 font-family: 'Raleway', sans-serif;
 font-size: 16px;
 }
-p2 {
-color: #000000;
+h6 {
+color: #85ABFF;
+font-weight: bold;
 font-family: 'Raleway', sans-serif;
-font-weight: bold; 
-font-size: 18px;
+text-transform: uppercase;
+font-size: 20px;
+}
+#text {
+text-align: left;
 }
 body {
 background-color: #E5E2DE;
