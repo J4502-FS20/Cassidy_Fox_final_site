@@ -1,3 +1,13 @@
+body {
+background-color:#DBE5EF;
+text-align: center;
+}
+
+main {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 h1 {
 color: #0F4378;
 font-size: 34px;
@@ -47,16 +57,26 @@ font-size:22px;
 }
 .description_item {
   display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
+
+.description_text {
+  width: 50%;
+  text-align: center;
+}
+
 .home_images {
-  width: 300px;
+  width: 40%;
+  max-width: 300px;
+  height: auto;
+  margin-right: 1.4rem;
 }
-body {
-background-color:#DBE5EF;
-text-align: center;
-margin-left: 200px;
-margin-right: 200px;
+
+.home_images img {
+  width: 100%;
 }
+
 a {
 color: #8E1B13;
 text-decoration: none;
