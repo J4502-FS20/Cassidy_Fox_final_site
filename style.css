@@ -68,3 +68,9 @@ img {
 max-width: 700px;
 width: 100%;
 }
+.caption {
+  font-size: 12px;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
