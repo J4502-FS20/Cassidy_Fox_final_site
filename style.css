@@ -39,17 +39,15 @@ justify-content:space-around;
 flex-direction: row;
 font-size:22px;
 }
-.page_descriptions {
+.description_holder {
   display: flex;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  flex-direction: column;
+}
+.description_item {
+  display: flex;
 }
 .home_images {
-  display: flex;
-  display: block;
+  width: 300px;
 }
 body {
 background-color:#DBE5EF;
