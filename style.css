@@ -1,10 +1,10 @@
 h1 {
-color: #000000;
+color: #0F4378;
 font-size: 34px;
 font-family:'Rock Salt', cursive;
 }
 h2 {
-color: #8E1B13;
+color:#0F4378;
 font-size: 28px;
 font-family: 'Poppins', sans-serif;
 }
@@ -33,12 +33,23 @@ margin-right: 20px;
 #image {
 text-align: center;
 }
-#nav_item {
-display: flex;
+.sticky_nav {
+display:flex;
+justify-content:space-around;
+flex-direction: row;
+font-size:22px;
 }
-#nav_text {
-display: flex;
-display: inline-block;
+.page_descriptions {
+  display: flex;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.home_images {
+  display: flex;
+  display: block;
 }
 body {
 background-color:#DBE5EF;
@@ -48,6 +59,7 @@ margin-right: 200px;
 }
 a {
 color: #8E1B13;
+text-decoration: none;
 }
 a:hover {
 background-color:#E4E4B5;
