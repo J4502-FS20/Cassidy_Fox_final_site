@@ -4,8 +4,9 @@ text-align: center;
 }
 
 main {
-  margin-left: 200px;
-  margin-right: 200px;
+width: 90%;
+min-width: 300px;
+margin: auto;
 }
 
 h1 {
@@ -54,6 +55,7 @@ font-size:22px;
 .description_holder {
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 .description_item {
   display: flex;
