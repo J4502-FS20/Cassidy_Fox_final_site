@@ -47,8 +47,9 @@ margin-right: 20px;
 .sticky_nav {
 display:flex;
 justify-content:space-around;
-flex-direction: row;
+flex-direction:row;
 font-size:22px;
+margin: auto;
 }
 .description_holder {
   display: flex;
@@ -86,8 +87,9 @@ a:hover {
 background-color:#E4E4B5;
 }
 .caption {
-  font-size: 12px;
+  font-size: 14px;
   color: #000000;
   font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
+  font-weight:lighter;
+  font-style: italic;
 }
