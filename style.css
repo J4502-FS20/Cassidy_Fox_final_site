@@ -93,3 +93,30 @@ background-color:#E4E4B5;
   font-weight:lighter;
   font-style: italic;
 }
+
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.imageHolder {
+  margin: 20px 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.imageHolder caption {
+  margin: 10px 0;
+}
+
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hideThisDiv {
+  display: none;
+}
