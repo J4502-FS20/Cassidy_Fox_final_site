@@ -97,16 +97,17 @@ background-color:#E4E4B5;
 .imageGallery {
   display: flex;
   flex-direction: column;
+  margin:auto;
   width: 100%;
   max-width: 500px;
 }
 
 .imageHolder {
   margin: 20px 0;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
-.imageHolder caption {
+.imageHolder figcaption {
   margin: 10px 0;
 }
 
